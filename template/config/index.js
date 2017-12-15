@@ -52,7 +52,7 @@ module.exports = {
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    sassGlobalResources: ['src/styles/main.scss'],
+    sassGlobalResources: ['src/styles/shared.scss'],
 
     /**
      * Source Maps

@@ -12,6 +12,15 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
     'vue/max-attributes-per-line': [2, {
       'singleline': 2,
+    }],
+    'vue/html-self-closing': [2, {
+      'html': {
+        'void': 'never',
+        'normal': 'never',
+        'component': 'always'
+      },
+      'svg': 'always',
+      'math': 'always'
     }]
   }
 }
