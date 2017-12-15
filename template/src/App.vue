@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="app">
     <img src="./assets/logo.png">
     <router-view/>
   </div>
@@ -13,8 +13,8 @@ export default {
 
 <style lang="scss" src="./styles/app.scss"></style>
 
-<style>
-#app {
+<style scoped>
+.app {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
