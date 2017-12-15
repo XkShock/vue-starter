@@ -20,14 +20,9 @@ module.exports = {
     notifyOnErrors: true,
     poll: false, // https://webpack.js.org/configuration/dev-server/#devserver-watchoptions-
 
-    {{#lint}}// Use Eslint Loader?
-    // If true, your code will be linted during bundling and
-    // linting errors and warnings will be shown in the console.
+    // Lint eslint in webpack + display overlay on page with errors
     useEslint: true,
-    // If true, eslint errors and warnings will also be shown in the error overlay
-    // in the browser.
     showEslintErrorsInOverlay: false,
-    {{/lint}}
 
     /**
      * Source Maps
@@ -57,6 +52,7 @@ module.exports = {
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
+    sassGlobalResources: ['src/styles/main.scss'],
 
     /**
      * Source Maps
