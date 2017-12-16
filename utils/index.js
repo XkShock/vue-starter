@@ -29,7 +29,7 @@ exports.printMessage = function printMessage(data, { green, yellow }) {
 To get started:
 
   ${yellow(
-    `${data.inPlace ? '' : `cd ${data.destDirName}\n  `}npm install (or if using yarn: yarn)\n  npm run dev`
+    `${data.inPlace ? '' : `cd ${data.destDirName}\n  `}yarn\n  yarn dev`
   )}
 
 Documentation can be found at https://vuejs-templates.github.io/webpack

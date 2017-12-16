@@ -12,8 +12,8 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). **It
 $ npm install -g vue-cli
 $ vue init michalsnik/vue-template my-project
 $ cd my-project
-$ npm install
-$ npm run dev
+$ yarn
+$ yarn dev
 ```
 
 This will scaffold the project using the `master` branch.
