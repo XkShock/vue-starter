@@ -1,6 +1,6 @@
-# Vue Webpack Opinionated Template
+# Vue Starter Template
 
-> A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction.
+> A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction, plus few opinionated configurations on top of the cake.
 
 > This template is Vue 2.0 compatible.
 
@@ -10,7 +10,7 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). **It
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init michalsnik/vue-template my-project
+$ vue init netguru/vue-starter my-project
 $ cd my-project
 $ yarn
 $ yarn dev
